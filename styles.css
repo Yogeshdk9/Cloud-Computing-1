@@ -7,7 +7,7 @@ h1 {
   margin-top: 10px;
   color: white;
 }
-.input2 {
+.formContainer {
   width: 39.5%;
   display: block;
   border: 2px solid white;
@@ -15,14 +15,7 @@ h1 {
   text-align: center;
   background-color: black;
 }
-.input1 {
-  width: 29%;
-  display: block;
-  border: 2px solid white;
-  margin: 0px 0px 0px 600px;
-  padding: 50px;
-  background-color: black;
-}
+
 #email,
 #password {
   padding: 15px;
