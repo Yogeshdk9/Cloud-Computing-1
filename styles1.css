@@ -1,0 +1,12 @@
+.input1 {
+  display: block;
+  border: 2px solid black;
+  margin: 200px 0px 0px 500px;
+  padding: 20px 0px 30px 30px;
+  width: 30%;
+  background-color: white;
+}
+body {
+  background-image: url('photo1.jpg');
+  background-size: cover;
+}

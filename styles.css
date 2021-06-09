@@ -1,3 +1,33 @@
 body {
-  background: orange;
+  background-image: url('photo.png');
+  position: absolute;
+  background-size: cover;
+}
+h1 {
+  margin-top: 10px;
+  color: white;
+}
+.input2 {
+  width: 39.5%;
+  display: block;
+  border: 2px solid white;
+  margin: 100px 0px 0px 600px;
+  text-align: center;
+  background-color: black;
+}
+.input1 {
+  width: 29%;
+  display: block;
+  border: 2px solid white;
+  margin: 0px 0px 0px 600px;
+  padding: 50px;
+  background-color: black;
+}
+#email,
+#password {
+  padding: 15px;
+  width: 80%;
+}
+#signUp {
+  margin-right: 140px;
 }
