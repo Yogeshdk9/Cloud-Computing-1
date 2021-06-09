@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>
+            Document
+        </title>
+    </head>
+    <body>
+        <h1>
+            Firebase
+        </h1>
+        <input name="" type="file"/>
+        <button>
+            Submit
+        </button>
+        <input type="button" value="Download" onclick="window.location = 'https://firebasestorage.googleapis.com/v0/b/cloud1-f4962.appspot.com/o/images%2F%5Bobject%20File%5D?alt=media&token=1b533b51-15c3-48f9-91e5-d52dc0021f3f'" class="cancel_button">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-storage.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+   var firebaseConfig = {
+  apiKey: 'AIzaSyCv5lBpxJ3BoVXyLw4tSN5JEtTd8DUuJco',
+  authDomain: 'cloud1-f4962.firebaseapp.com',
+  projectId: 'cloud1-f4962',
+  storageBucket: 'cloud1-f4962.appspot.com',
+  messagingSenderId: '953355971301',
+  appId: '1:953355971301:web:baf1fa9ea9019e5e67c20c',
+  measurementId: 'G-TSMFT2LKS2'
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script   defer src="upload.js"></script>
+    </body>
+</html>
