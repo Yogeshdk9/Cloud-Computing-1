@@ -9,15 +9,19 @@
     </title>
     <link rel="stylesheet" href="styles1.css">
 </head>
+<script>
+    function showAlert() {
+    var myText = "Uploaded Successfully";
+    alert (myText);
+  }
+</script>
 
 <body>
     <h1>
         Firebase
     </h1>
     <input name="" type="file"/>
-    <button>
-            Submit
-        </button>
+    <button onclick="showAlert()">Submit</button>
     <input type="button" value="Download" onclick="window.location = 'https://firebasestorage.googleapis.com/v0/b/up-download.appspot.com/o/images%2F%5Bobject%20File%5D?alt=media&token=5d1e25c5-8849-44f2-8a8f-186b39a100ab'" class="cancel_button">
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
